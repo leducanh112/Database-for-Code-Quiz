@@ -13,7 +13,7 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use(router);
+server.use("/api", router);
 
 server.listen(3000, () => {
   console.log("JSON Server is running on http://localhost:3000");
