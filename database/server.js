@@ -13,8 +13,15 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use("/api", router);
+server.use(
+  // Add custom route here if needed
+  jsonServer.rewriter({
+    "/api/*": "/$1",
+  })
+);
 
 server.listen(3000, () => {
   console.log("JSON Server is running on http://localhost:3000");
 });
+
+module.exports = server;
