@@ -12,6 +12,14 @@
     {
       "name": "HTML",
       "id": 1
+    },
+    {
+      "name": "CSS",
+      "id": 2
+    },
+    {
+      "name": "Javascript",
+      "id": 3
     }
   ],
   "questions": [
@@ -65,35 +73,57 @@
     {
       "topicId": "1",
       "questions": "Thẻ <iframe> được sử dụng để hiển thị một trang trong một trang web?",
-      "answers": ["Đúng", "Sai", "Không có thẻ <iframe>"],
+      "answers": [
+        "Đúng",
+        "Sai",
+        "Không có thẻ <iframe>"
+      ],
       "correctAnswer": 0,
       "id": 5
     },
     {
       "topicId": "1",
       "questions": "Các chú thích trong HTML sẽ bắt đầu bằng <!-- và kết thúc bằng -->",
-      "answers": ["Đúng", "Sai"],
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
       "correctAnswer": 0,
       "id": 6
     },
     {
       "topicId": "1",
       "questions": "Thẻ HTML nào dùng để xác định tiêu đề của một trang?",
-      "answers": ["<meta>", "<head>", "<meta>", "<title>"],
+      "answers": [
+        "<meta>",
+        "<head>",
+        "<meta>",
+        "<title>"
+      ],
       "correctAnswer": 3,
       "id": 7
     },
     {
       "topicId": "1",
       "questions": "Thuộc tính HTML nào chỉ định văn bản thay thế cho hình ảnh, nếu hình ảnh không thể hiển thị?",
-      "answers": ["title", "src", "alt", "longdesc"],
+      "answers": [
+        "title",
+        "src",
+        "alt",
+        "longdesc"
+      ],
       "correctAnswer": 2,
       "id": 8
     },
     {
       "topicId": "1",
       "questions": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
-      "answers": ["<h6>", "<h1>", "<head>", "<heading>"],
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<heading>"
+      ],
       "correctAnswer": 1,
       "id": 9
     },
@@ -112,28 +142,45 @@
     {
       "topicId": "1",
       "questions": "Thẻ HTML nào được sử dụng để chỉ định chân trang của 1 trang web?",
-      "answers": ["<section>", "<footer>", "<bottom>"],
+      "answers": [
+        "<section>",
+        "<footer>",
+        "<bottom>"
+      ],
       "correctAnswer": 1,
       "id": 11
     },
     {
       "topicId": "1",
       "questions": "Bạn có thể nhúng các phần tử SVG trực tiếp vào một trang HTML?",
-      "answers": ["Đúng", "Sai"],
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
       "correctAnswer": 0,
       "id": 12
     },
     {
       "topicId": "1",
       "questions": "Thẻ nào dùng để xuống dòng trong HTML?",
-      "answers": ["<enter>", "<br>", "<break>", "<lb>"],
+      "answers": [
+        "<enter>",
+        "<br>",
+        "<break>",
+        "<lb>"
+      ],
       "correctAnswer": 1,
       "id": 13
     },
     {
       "topicId": "1",
       "questions": "Thẻ HTML dùng để chạy một file video là gì?",
-      "answers": ["<media>", "<movie>", "<video>", "<play>"],
+      "answers": [
+        "<media>",
+        "<movie>",
+        "<video>",
+        "<play>"
+      ],
       "correctAnswer": 2,
       "id": 14
     },
@@ -152,7 +199,12 @@
     {
       "topicId": "1",
       "questions": "Thẻ HTML dùng để chạy một file audio là gì?",
-      "answers": ["<audio>", "<mp3>", "<play>", "<sound>"],
+      "answers": [
+        "<audio>",
+        "<mp3>",
+        "<play>",
+        "<sound>"
+      ],
       "correctAnswer": 0,
       "id": 16
     },
@@ -171,21 +223,34 @@
     {
       "topicId": "1",
       "questions": "Trong HTML, onblur và onfocus là:",
-      "answers": ["Phần tử HTML", "Thuộc tính Event", "Thuộc tính Style"],
+      "answers": [
+        "Phần tử HTML",
+        "Thuộc tính Event",
+        "Thuộc tính Style"
+      ],
       "correctAnswer": 1,
       "id": 18
     },
     {
       "topicId": "1",
       "questions": "Đồ họa do SVG định nghĩa có trong định dạng nào?",
-      "answers": ["XML", "HTML", "CSS"],
+      "answers": [
+        "XML",
+        "HTML",
+        "CSS"
+      ],
       "correctAnswer": 0,
       "id": 19
     },
     {
       "topicId": "1",
       "questions": "Chọn thẻ HTML chính xác dùng để xác định văn bản quan trọng",
-      "answers": ["<important>", "<strong>", "<b>", "<i>"],
+      "answers": [
+        "<important>",
+        "<strong>",
+        "<b>",
+        "<i>"
+      ],
       "correctAnswer": 1,
       "id": 20
     },
@@ -204,21 +269,36 @@
     {
       "topicId": "1",
       "questions": "Trong HTML, thuộc tính nào được sử dụng để chỉ định rằng dữ liệu này bắt buộc phải điền?",
-      "answers": ["formvalidate", "required", "placeholder", "validate"],
+      "answers": [
+        "formvalidate",
+        "required",
+        "placeholder",
+        "validate"
+      ],
       "correctAnswer": 1,
       "id": 22
     },
     {
       "topicId": "1",
       "questions": "Chọn thẻ HTML được dùng nhấn mạnh nội dung văn bản",
-      "answers": ["<i>", " <em>", "<italic>", "<b>"],
+      "answers": [
+        "<i>",
+        " <em>",
+        "<italic>",
+        "<b>"
+      ],
       "correctAnswer": 1,
       "id": 23
     },
     {
       "topicId": "1",
       "questions": "Loại input nào xác định điều khiển slider?",
-      "answers": ["slider", "range", "controls", "search"],
+      "answers": [
+        "slider",
+        "range",
+        "controls",
+        "search"
+      ],
       "correctAnswer": 1,
       "id": 24
     },
@@ -237,21 +317,35 @@
     {
       "topicId": "1",
       "questions": "Thẻ HTML nào được sử dụng để hiển thị phép đo vô hướng trong một range?",
-      "answers": ["<meter>", "<measure>", "<range>", "<gauge>"],
+      "answers": [
+        "<meter>",
+        "<measure>",
+        "<range>",
+        "<gauge>"
+      ],
       "correctAnswer": 0,
       "id": 26
     },
     {
       "topicId": "1",
       "questions": "Ký tự nào được dùng để biểu thị cho một thẻ đóng?",
-      "answers": ["\\", "/", "^", "*"],
+      "answers": [
+        "\\",
+        "/",
+        "^",
+        "*"
+      ],
       "correctAnswer": 1,
       "id": 27
     },
     {
       "topicId": "1",
       "questions": "Thẻ HTML nào xác định các liên kết là liên kết điều hướng trang web (danh mục)?",
-      "answers": ["<nav>", "<navigate>", "<navigation>"],
+      "answers": [
+        "<nav>",
+        "<navigate>",
+        "<navigation>"
+      ],
       "correctAnswer": 0,
       "id": 28
     },
@@ -293,28 +387,46 @@
     {
       "topicId": "1",
       "questions": "Tag nào được dùng để thêm header trong bảng HTML5?",
-      "answers": ["<theader>", "<h1>", "<th>", "<header>"],
+      "answers": [
+        "<theader>",
+        "<h1>",
+        "<th>",
+        "<header>"
+      ],
       "correctAnswer": 2,
       "id": 32
     },
     {
       "topicId": "1",
       "questions": "Các thẻ HTML có thể viết liền nhau mà không cần bắt buộc xuống dòng mới?",
-      "answers": ["Đúng", "Sai"],
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
       "correctAnswer": 0,
       "id": 33
     },
     {
       "topicId": "1",
       "questions": "Để tạo một danh sách có dấu đầu dòng, bạn dùng thẻ HTML nào?",
-      "answers": ["<ul>", " <list>", "<lt>", " <ol>"],
+      "answers": [
+        "<ul>",
+        " <list>",
+        "<lt>",
+        " <ol>"
+      ],
       "correctAnswer": 0,
       "id": 34
     },
     {
       "topicId": "1",
       "questions": "Để tạo một danh sách đánh số, bạn dùng phần tử HTML nào?",
-      "answers": ["<list>", "<ul>", "<ol>", "<lt>"],
+      "answers": [
+        "<list>",
+        "<ul>",
+        "<ol>",
+        "<lt>"
+      ],
       "correctAnswer": 2,
       "id": 35
     },
@@ -365,6 +477,1193 @@
       ],
       "correctAnswer": 1,
       "id": 39
+    },
+    {
+      "topicId": "2",
+      "questions": "Giá trị nào dưới đây của position sẽ giữ phần tử tại một vị trí cố định khi cuộn trang?",
+      "answers": [
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "correctAnswer": 2,
+      "id": 40
+    },
+    {
+      "topicId": "2",
+      "questions": " CSS được sử dụng để làm gì?",
+      "answers": [
+        "Tạo cấu trúc trang web",
+        "Thêm kiểu dáng (màu sắc, bố cục) cho trang web.",
+        "header",
+        "h1"
+      ],
+      "correctAnswer": 1,
+      "id": 41
+    },
+    {
+      "topicId": "2",
+      "questions": "Để áp dụng hiệu ứng chuyển động mượt mà cho một phần tử khi thay đổi thuộc tính, bạn sử dụng:",
+      "answers": [
+        "animation",
+        "transition",
+        "transform",
+        "keyframes"
+      ],
+      "correctAnswer": 1,
+      "id": 42
+    },
+    {
+      "topicId": "2",
+      "questions": "Câu nào sau đây mô tả đúng về thuộc tính z-index?",
+      "answers": [
+        "Xác định độ trong suốt của một phần tử.",
+        "Kiểm soát thứ tự lớp (layer) của các phần tử.",
+        "Đặt khoảng cách giữa các phần tử.",
+        "Tạo bóng cho phần tử."
+      ],
+      "correctAnswer": 1,
+      "id": 43
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp nào đúng để thay đổi kích thước font chữ linh hoạt theo kích thước màn hình?",
+      "answers": [
+        "font-size: auto;",
+        "font-size: clamp(1rem, 2vw, 2rem);",
+        "font-size: fit-content;",
+        "font-size: responsive;"
+      ],
+      "correctAnswer": 1,
+      "id": 44
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, thuộc tính justify-content: space-between; có tác dụng gì?",
+      "answers": [
+        "Căn đều các phần tử và khoảng cách bằng nhau ở hai đầu.",
+        "Căn giữa tất cả các phần tử.",
+        "Căn đều các phần tử với khoảng cách giữa các phần tử bằng nhau.",
+        "Căn các phần tử sang bên phải."
+      ],
+      "correctAnswer": 2,
+      "id": 45
+    },
+    {
+      "topicId": "2",
+      "questions": "Cách nào dưới đây để chèn CSS vào một trang HTML?",
+      "answers": [
+        " Chỉ chèn trong file CSS riêng (style.css).",
+        "Sử dụng thẻ trong hoặc thuộc tính style.",
+        "Chèn CSS thông qua JavaScript.",
+        "Chèn CSS bằng cách sử dụng thẻ ."
+      ],
+      "correctAnswer": 1,
+      "id": 46
+    },
+    {
+      "topicId": "2",
+      "questions": "Để tạo một gradient từ màu đỏ sang màu xanh theo đường chéo, cú pháp nào là đúng?",
+      "answers": [
+        "background: radial-gradient(red, blue);",
+        "background: linear-gradient(to bottom, red, blue);",
+        " background: linear-gradient(to bottom right, red, blue);",
+        "background: diagonal-gradient(red, blue);"
+      ],
+      "correctAnswer": 2,
+      "id": 47
+    },
+    {
+      "topicId": "2",
+      "questions": "CSS nào dưới đây được sử dụng để thêm hiệu ứng bóng vào một phần tử?",
+      "answers": [
+        "border-shadow",
+        "box-shadow",
+        "shadow-effect",
+        "text-shadow"
+      ],
+      "correctAnswer": 1,
+      "id": 48
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS, làm thế nào để chọn tất cả các phần tử có thuộc tính data-role=\"admin\"?",
+      "answers": [
+        "div[data-role=admin]",
+        "div[data-role=\"admin\"]",
+        "[div-role=admin]",
+        "[data-role]"
+      ],
+      "correctAnswer": 1,
+      "id": 49
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, thuộc tính nào được sử dụng để căn chỉnh các phần tử dọc theo trục chính?",
+      "answers": [
+        "align-items",
+        "justify-content",
+        " align-content",
+        " flex-direction"
+      ],
+      "correctAnswer": 1,
+      "id": 50
+    },
+    {
+      "topicId": "2",
+      "questions": "rong CSS Grid, thuộc tính nào dùng để xác định khoảng cách giữa các ô lưới?",
+      "answers": [
+        "grid-gap",
+        "gap",
+        "grid-spacing",
+        "grid-padding"
+      ],
+      "correctAnswer": 1,
+      "id": 51
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính CSS nào được sử dụng để thay đổi màu chữ?",
+      "answers": [
+        "color",
+        "font-color",
+        "text-color",
+        "background-color"
+      ],
+      "correctAnswer": 0,
+      "id": 52
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp nào đúng để đặt phần tử con trong Grid vào cột 2 và hàng 3?",
+      "answers": [
+        "grid-column: 2; grid-row: 3;",
+        " grid-position: column 2 / row 3;",
+        "grid-area: 2 / 3;",
+        "grid-template: col-2 / row-3;"
+      ],
+      "correctAnswer": 0,
+      "id": 53
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, giá trị nào của align-items sẽ căn giữa phần tử con theo chiều dọc (trục phụ)?",
+      "answers": [
+        "flex-start",
+        "flex-end",
+        "center",
+        "space-between"
+      ],
+      "correctAnswer": 2,
+      "id": 54
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS Grid, cú pháp nào đúng để tạo một lưới với 3 cột có kích thước lần lượt là 100px, 200px, và 1fr?",
+      "answers": [
+        "grid-template-columns: 100px 200px 1fr;",
+        "grid-template: 100px 200px 1fr;",
+        "grid-columns: 100px 200px 1fr;",
+        "grid-columns-template: 100px 200px 1fr;"
+      ],
+      "correctAnswer": 0,
+      "id": 55
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, thuộc tính nào xác định cách các phần tử sẽ hiển thị trên dòng tiếp theo khi không đủ không gian?",
+      "answers": [
+        "flex-wrap",
+        "align-items",
+        "justify-content",
+        "flex-flow"
+      ],
+      "correctAnswer": 0,
+      "id": 56
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS Grid, giá trị repeat(3, 1fr) trong grid-template-columns có nghĩa là gì?",
+      "answers": [
+        "Tạo 3 cột có kích thước bằng nhau là 1fr.",
+        "Tạo 3 hàng có kích thước bằng nhau là 1fr",
+        "Tạo 1 cột có kích thước 1fr và lặp lại 3 lần",
+        "Tạo 3 cột có chiều rộng cố định."
+      ],
+      "correctAnswer": 0,
+      "id": 57
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, thuộc tính flex-direction: column; có tác dụng gì?",
+      "answers": [
+        "Sắp xếp các phần tử theo hàng ngang.",
+        " Sắp xếp các phần tử theo hàng dọc.",
+        "Sắp xếp các phần tử theo thứ tự ngược lại.",
+        "Sắp xếp các phần tử theo cả hai chiều."
+      ],
+      "correctAnswer": 1,
+      "id": 58
+    },
+    {
+      "topicId": "2",
+      "questions": "Để thay đổi kiểu chữ của đoạn văn, thuộc tính nào được sử dụng?",
+      "answers": [
+        " text-style",
+        "font-family",
+        " font-type",
+        "text-family"
+      ],
+      "correctAnswer": 1,
+      "id": 59
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính CSS Grid nào được sử dụng để chỉ định tên cho các vùng trong lưới?",
+      "answers": [
+        "grid-template",
+        "grid-names",
+        "grid-template-areas",
+        "grid-area-names"
+      ],
+      "correctAnswer": 2,
+      "id": 60
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong Flexbox, giá trị flex: 2 1 auto; có nghĩa là gì?",
+      "answers": [
+        "Phần tử sẽ co dãn gấp đôi so với phần tử khác và không thu nhỏ.",
+        "Phần tử có hệ số co giãn là 2, có thể thu nhỏ, và kích thước ban đầu là tự động.",
+        "Phần tử không co dãn, không thu nhỏ, và kích thước cố định.",
+        "Phần tử có hệ số co giãn 2 và kích thước cố định là auto."
+      ],
+      "correctAnswer": 1,
+      "id": 61
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính CSS nào thường được sử dụng để làm giao diện web responsive?",
+      "answers": [
+        "@media",
+        "@responsive",
+        "media-query",
+        "@device"
+      ],
+      "correctAnswer": 0,
+      "id": 62
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp nào đúng để viết Media Query cho thiết bị có chiều rộng nhỏ hơn hoặc bằng 768px?",
+      "answers": [
+        "@media (width <= 768px) { ... }",
+        "@media screen and (max-width: 768px) { ... }",
+        "@responsive (max-width: 768px) { ... }",
+        "@media screen { max-width: 768px; }"
+      ],
+      "correctAnswer": 1,
+      "id": 63
+    },
+    {
+      "topicId": "2",
+      "questions": "Đơn vị nào dưới đây được coi là đơn vị tỷ lệ và thường được sử dụng trong CSS Responsive?",
+      "answers": [
+        "px",
+        "em",
+        "rem",
+        "Cả B và C"
+      ],
+      "correctAnswer": 3,
+      "id": 64
+    },
+    {
+      "topicId": "2",
+      "questions": "Đâu là cú pháp đúng để áp dụng màu nền xanh cho một phần tử div?",
+      "answers": [
+        "background: blue;",
+        "background-color: blue;",
+        "bg-color: blue;",
+        "color-background: blue;"
+      ],
+      "correctAnswer": 1,
+      "id": 65
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS Responsive, thuộc tính nào được sử dụng để ngăn nội dung không vượt ra khỏi khung chứa?",
+      "answers": [
+        "max-width",
+        "width",
+        "overflow",
+        "height"
+      ],
+      "correctAnswer": 0,
+      "id": 66
+    },
+    {
+      "topicId": "2",
+      "questions": "Cách nào để tạo một hình ảnh đáp ứng kích thước khung chứa?",
+      "answers": [
+        "width: auto; height: 100%;",
+        "max-width: 100%; height: auto;",
+        "width: 100%; height: auto;",
+        "width: 100%; height: 100%;"
+      ],
+      "correctAnswer": 1,
+      "id": 67
+    },
+    {
+      "topicId": "2",
+      "questions": "Giá trị vw trong CSS có nghĩa là gì?",
+      "answers": [
+        "Chiều rộng phần tử tính theo phần trăm của viewport.",
+        "Chiều cao phần tử tính theo phần trăm của viewport.",
+        "Chiều rộng viewport tính bằng pixel.",
+        "Tỷ lệ phần trăm chiều cao viewport."
+      ],
+      "correctAnswer": 0,
+      "id": 68
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp @media screen and (min-width: 1024px) có nghĩa là gì?",
+      "answers": [
+        "Áp dụng CSS cho màn hình có chiều rộng lớn hơn hoặc bằng 1024px.",
+        "Áp dụng CSS cho màn hình có chiều rộng nhỏ hơn 1024px.",
+        "Áp dụng CSS cho thiết bị có độ phân giải màn hình là 1024px.",
+        "Áp dụng CSS cho màn hình có chiều cao lớn hơn 1024px."
+      ],
+      "correctAnswer": 0,
+      "id": 69
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính nào của Flexbox thường được dùng để thiết kế layout đáp ứng?",
+      "answers": [
+        "flex-grow, flex-shrink, flex-basis",
+        "justify-content, align-items, align-content",
+        "flex-wrap và flex-direction",
+        "Cả A, B và C"
+      ],
+      "correctAnswer": 3,
+      "id": 70
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS Responsive, làm thế nào để ẩn một phần tử trên màn hình nhỏ hơn 600px?",
+      "answers": [
+        "@media (max-width: 600px) { display: hidden; }",
+        "@media (max-width: 600px) { visibility: hidden; }",
+        "@media (max-width: 600px) { hide: true; }"
+      ],
+      "correctAnswer": 1,
+      "id": 71
+    },
+    {
+      "topicId": "2",
+      "questions": " Cách nào giúp thiết kế bảng dữ liệu trở nên thân thiện hơn trên thiết bị di động?",
+      "answers": [
+        "Sử dụng scrollable table (bảng có thanh cuộn).",
+        "Thu nhỏ kích thước font chữ.",
+        "Chuyển đổi bảng thành danh sách (list) trên màn hình nhỏ.",
+        "Cả A và C."
+      ],
+      "correctAnswer": 3,
+      "id": 72
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính nào được sử dụng để áp dụng hiệu ứng chuyển động trong CSS?",
+      "answers": [
+        "@keyframes",
+        "animation",
+        "transition",
+        "transform"
+      ],
+      "correctAnswer": 1,
+      "id": 73
+    },
+    {
+      "topicId": "2",
+      "questions": "CSS Selector nào chọn tất cả các phần tử p trong trang web?",
+      "answers": [
+        "#p",
+        " p",
+        ".p",
+        "*p"
+      ],
+      "correctAnswer": 1,
+      "id": 74
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp nào đúng để định nghĩa chuyển động trong CSS?",
+      "answers": [
+        "@animation { ... }",
+        "@keyframes animationName { ... }",
+        "@keyframes { ... }",
+        "@transition { ... }"
+      ],
+      "correctAnswer": 1,
+      "id": 75
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính animation-duration xác định điều gì?",
+      "answers": [
+        "Thời gian chuyển động bắt đầu.",
+        "Thời gian chạy toàn bộ hoạt cảnh.",
+        " Độ trễ trước khi hoạt cảnh bắt đầu.",
+        "Số lần lặp lại hoạt cảnh."
+      ],
+      "correctAnswer": 1,
+      "id": 76
+    },
+    {
+      "topicId": "2",
+      "questions": "Giá trị nào dưới đây của animation-iteration-count sẽ làm hoạt cảnh chạy vô hạn?",
+      "answers": [
+        "0",
+        "infinity",
+        "forever",
+        "infinite"
+      ],
+      "correctAnswer": 3,
+      "id": 77
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính nào được sử dụng để căn chỉnh văn bản vào giữa?",
+      "answers": [
+        "align-text: center;",
+        "text-center: true;",
+        "text-align: center;",
+        "center-text: true;"
+      ],
+      "correctAnswer": 2,
+      "id": 78
+    },
+    {
+      "topicId": "2",
+      "questions": " Để tạo hoạt cảnh bắt đầu chậm và tăng tốc dần, thuộc tính animation-timing-function cần sử dụng giá trị nào?",
+      "answers": [
+        "ease",
+        "linear",
+        "ease-in",
+        "ease-out"
+      ],
+      "correctAnswer": 2,
+      "id": 79
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính nào dưới đây dùng để làm chậm hoạt cảnh trước khi nó bắt đầu?",
+      "answers": [
+        "animation-timing-function",
+        "animation-delay",
+        "animation-iteration-count",
+        " animation-play-state"
+      ],
+      "correctAnswer": 1,
+      "id": 80
+    },
+    {
+      "topicId": "2",
+      "questions": "Cú pháp nào đúng để tạo một chuyển động quay 360 độ cho một phần tử?",
+      "answers": [
+        "@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+        "@keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }",
+        "@keyframes rotate { start { transform: rotate(0deg); } end { transform: rotate(360deg); } }",
+        "Cả A và B"
+      ],
+      "correctAnswer": 3,
+      "id": 81
+    },
+    {
+      "topicId": "2",
+      "questions": " CSS viết tắt của cụm từ nào?",
+      "answers": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Custom Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 1,
+      "id": 82
+    },
+    {
+      "topicId": "2",
+      "questions": "Giá trị nào của animation-fill-mode đảm bảo phần tử giữ trạng thái cuối cùng của hoạt cảnh sau khi nó kết thúc?",
+      "answers": [
+        "none",
+        "forwards",
+        "backwards",
+        "both"
+      ],
+      "correctAnswer": 1,
+      "id": 83
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính animation-play-state có thể nhận giá trị nào sau đây?",
+      "answers": [
+        "paused và running",
+        "start và stop",
+        "enabled và disabled",
+        "active và inactive"
+      ],
+      "correctAnswer": 0,
+      "id": 84
+    },
+    {
+      "topicId": "2",
+      "questions": "Để áp dụng nhiều hoạt cảnh cho một phần tử, bạn viết thuộc tính animation như thế nào?",
+      "answers": [
+        "Tách mỗi hoạt cảnh bằng dấu phẩy: animation: anim1 1s, anim2 2s;",
+        "Tách mỗi hoạt cảnh bằng dấu chấm phẩy: animation: anim1 1s; anim2 2s;",
+        "Gộp hoạt cảnh trong một @keyframes: animation: anim1_anim2 2s;",
+        "Chỉ có thể áp dụng một hoạt cảnh cho một phần tử."
+      ],
+      "correctAnswer": 0,
+      "id": 85
+    },
+    {
+      "topicId": "2",
+      "questions": "Đâu là cách viết đúng để thêm đường viền dày 2px, màu đỏ cho một phần tử div?",
+      "answers": [
+        "border: 2px solid red;",
+        " border: red solid 2px;",
+        " border: 2 solid px red;",
+        "border-style: red 2px solid;"
+      ],
+      "correctAnswer": 0,
+      "id": 86
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS, đơn vị nào là đơn vị tương đối?",
+      "answers": [
+        "px",
+        "em",
+        "cm",
+        "mm"
+      ],
+      "correctAnswer": 1,
+      "id": 87
+    },
+    {
+      "topicId": "2",
+      "questions": "Thuộc tính CSS nào được sử dụng để tạo bố cục một chiều (hàng hoặc cột)?",
+      "answers": [
+        "grid",
+        "flexbox",
+        "float",
+        "inline-block"
+      ],
+      "correctAnswer": 1,
+      "id": 88
+    },
+    {
+      "topicId": "2",
+      "questions": "Trong CSS Grid, thuộc tính nào xác định số lượng cột và kích thước của chúng?",
+      "answers": [
+        "grid-rows",
+        "grid-template-rows",
+        "grid-template-columns",
+        "grid-gap"
+      ],
+      "correctAnswer": 2,
+      "id": 89
+    },
+    {
+      "topicId": "3",
+      "questions": "JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Tạo trang web tĩnh.",
+        "Tạo trang web động.",
+        " Thiết kế giao diện đồ họa.",
+        "Quản lý cơ sở dữ liệu."
+      ],
+      "correctAnswer": 1,
+      "id": 90
+    },
+    {
+      "topicId": "3",
+      "questions": "Đâu là phương pháp để ràng buộc giá trị this cho một hàm?",
+      "answers": [
+        "bind()",
+        "call()",
+        "apply()",
+        "Cả A, B và C"
+      ],
+      "correctAnswer": 3,
+      "id": 91
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của const nums=[1,2,3]; const [a,,b]=nums; console.log(a,b); là gì?",
+      "answers": [
+        "1 3",
+        "1 2",
+        "undefined undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 92
+    },
+    {
+      "topicId": "3",
+      "questions": "Đâu là cách đúng để khai báo một biến không thể thay đổi giá trị?",
+      "answers": [
+        " let x=10;",
+        "var x=10;",
+        "const x=10;",
+        "final x=10;"
+      ],
+      "correctAnswer": 2,
+      "id": 93
+    },
+    {
+      "topicId": "3",
+      "questions": "JavaScript là ngôn ngữ thuộc loại nào?",
+      "answers": [
+        "Ngôn ngữ lập trình máy.",
+        "Ngôn ngữ lập trình phía máy chủ.",
+        "Ngôn ngữ lập trình phía khách hàng.",
+        "Ngôn ngữ lập trình cơ sở dữ liệu."
+      ],
+      "correctAnswer": 2,
+      "id": 94
+    },
+    {
+      "topicId": "3",
+      "questions": "Template literals trong ES6 được sử dụng như thế nào?",
+      "answers": [
+        "\"Hello\" + name + \"!\"",
+        "'Hello' + name + '!'",
+        "`Hello, ${name}!`",
+        "template(\"Hello, name!\")"
+      ],
+      "correctAnswer": 2,
+      "id": 95
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của const add=(a,b)=>a+b; console.log(add(2,3)); là gì?",
+      "answers": [
+        "5",
+        "undefined",
+        "2,3",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 96
+    },
+    {
+      "topicId": "3",
+      "questions": "let và const trong ES6 khác với var như thế nào?",
+      "answers": [
+        "Không cho phép khai báo lại trong cùng phạm vi.",
+        "Chỉ hoạt động trong phạm vi khối {}.",
+        "Hỗ trợ Hoisting nhưng không khởi tạo giá trị mặc định.",
+        "Cả A, B và C đều đúng."
+      ],
+      "correctAnswer": 3,
+      "id": 97
+    },
+    {
+      "topicId": "3",
+      "questions": "Kiểu dữ liệu nào dưới đây không phải là kiểu dữ liệu cơ bản trong JavaScript?",
+      "answers": [
+        "number",
+        "string",
+        "character",
+        "boolean"
+      ],
+      "correctAnswer": 2,
+      "id": 98
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của const nums=[1,2,3]; const newNums=[...nums,4]; console.log(newNums); là gì?",
+      "answers": [
+        "[1,2,3,4]",
+        "[1,2,3]",
+        "[4,1,2,3]",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 99
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của const x=()=>{return {name:\"John\"};}; console.log(x().name); là gì?",
+      "answers": [
+        "undefined",
+        "John",
+        "{name:\"John\"}",
+        " Lỗi runtime"
+      ],
+      "correctAnswer": 1,
+      "id": 100
+    },
+    {
+      "topicId": "3",
+      "questions": "Tính năng nào dưới đây của ES6 cho phép gán giá trị mặc định cho tham số hàm?",
+      "answers": [
+        "Default Parameters",
+        "Spread Operator",
+        " Arrow Functions",
+        "Rest Parameters"
+      ],
+      "correctAnswer": 0,
+      "id": 101
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? \"console.log(typeof null);\"",
+      "answers": [
+        "object",
+        "null",
+        "undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 102
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của const nums=[1,2,3]; nums.push(4); console.log(nums); là gì?",
+      "answers": [
+        "[1,2,3,4]",
+        "[1,2,3]",
+        "Lỗi runtime",
+        "Không in gì ra"
+      ],
+      "correctAnswer": 0,
+      "id": 103
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào trong ES6 trả về Promise?",
+      "answers": [
+        " setTimeout()",
+        "async function",
+        "fetch()",
+        "Cả B và C"
+      ],
+      "correctAnswer": 3,
+      "id": 104
+    },
+    {
+      "topicId": "3",
+      "questions": "Từ khóa nào được sử dụng để khai báo một hàm bất đồng bộ?",
+      "answers": [
+        "async",
+        "await",
+        "promise",
+        "defer"
+      ],
+      "correctAnswer": 0,
+      "id": 105
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã async function foo(){return 42;} console.log(foo()); là gì?",
+      "answers": [
+        "42",
+        "Promise {: 42}",
+        "undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 1,
+      "id": 106
+    },
+    {
+      "topicId": "3",
+      "questions": "Từ khóa await có thể sử dụng ở đâu?",
+      "answers": [
+        "Trong mọi hàm JavaScript.",
+        "Trong một hàm được khai báo bằng async.",
+        "Trong các phương thức then() hoặc catch().",
+        "Trong bất kỳ phần tử nào của JavaScript."
+      ],
+      "correctAnswer": 1,
+      "id": 107
+    },
+    {
+      "topicId": "3",
+      "questions": "Cú pháp nào đúng để khai báo biến trong JavaScript?",
+      "answers": [
+        "var myVariable;",
+        "let myVariable;",
+        "const myVariable;",
+        "Cả A, B và C"
+      ],
+      "correctAnswer": 3,
+      "id": 108
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào của Promise được gọi khi Promise hoàn thành thành công?",
+      "answers": [
+        "then()",
+        "catch()",
+        "resolve()",
+        "reject()"
+      ],
+      "correctAnswer": 0,
+      "id": 109
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? Promise.resolve(5).then(x=>x+2).then(x=>console.log(x));",
+      "answers": [
+        "5",
+        "7",
+        "undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 1,
+      "id": 110
+    },
+    {
+      "topicId": "3",
+      "questions": "Giá trị nào được trả về khi thực hiện phép tính sau: 1 + \"2\";",
+      "answers": [
+        "3",
+        "\"3\"",
+        "\"12\"",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 2,
+      "id": 111
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào dùng để xử lý lỗi trong Promise?",
+      "answers": [
+        "resolve()",
+        "catch()",
+        "finally()",
+        "await()"
+      ],
+      "correctAnswer": 1,
+      "id": 112
+    },
+    {
+      "topicId": "3",
+      "questions": "Đoạn mã nào đúng để xử lý bất đồng bộ với async/await?",
+      "answers": [
+        "async function fetchData(){await fetch(url);}",
+        "function fetchData(){await fetch(url);}",
+        "fetchData(async()=>await fetch(url));",
+        "function fetchData(){return await fetch(url);}"
+      ],
+      "correctAnswer": 0,
+      "id": 113
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? async function foo(){throw \"Error\";} foo().catch(err=>console.log(err));",
+      "answers": [
+        "Không in gì ra.",
+        "undefined",
+        "Error",
+        "Lỗi runtime."
+      ],
+      "correctAnswer": 2,
+      "id": 114
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào được gọi dù Promise thành công hay thất bại?",
+      "answers": [
+        "resolve()",
+        "catch()",
+        "finally()",
+        "reject()"
+      ],
+      "correctAnswer": 2,
+      "id": 115
+    },
+    {
+      "topicId": "3",
+      "questions": "Từ khóa nào dưới đây được sử dụng để dừng vòng lặp trong JavaScript?",
+      "answers": [
+        "stop",
+        "break",
+        "exit",
+        "return"
+      ],
+      "correctAnswer": 1,
+      "id": 116
+    },
+    {
+      "topicId": "3",
+      "questions": "Đoạn mã nào là cách đúng để xử lý lỗi trong async/await?",
+      "answers": [
+        "try{await fetch(url);}catch(e){console.log(e);}",
+        "await fetch(url).catch(e=>console.log(e));",
+        "try{async fetch(url);}catch(e){console.log(e);}",
+        "await fetch(url).finally(()=>console.log(\"Done\"));"
+      ],
+      "correctAnswer": 0,
+      "id": 117
+    },
+    {
+      "topicId": "3",
+      "questions": "Đoạn mã nào đúng để thay đổi nội dung của thẻ có id=\"demo\"?",
+      "answers": [
+        "document.getElement(\"demo\").value=\"Hello\";",
+        "document.getElementsById(\"demo\").innerHTML=\"Hello\";",
+        "document.querySelector(\"#demo\").innerHTML=\"Hello\";",
+        "document.querySelector(\"#demo\").text=\"Hello\";"
+      ],
+      "correctAnswer": 2,
+      "id": 118
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào được sử dụng để thêm một phần tử mới vào DOM?",
+      "answers": [
+        "appendChild()",
+        "createElement()",
+        "setAttribute()",
+        "innerHTML()"
+      ],
+      "correctAnswer": 0,
+      "id": 119
+    },
+    {
+      "topicId": "3",
+      "questions": "Đoạn mã document.querySelectorAll(\".item\") trả về gì?",
+      "answers": [
+        "Một mảng chứa các phần tử có class là item.",
+        "Một NodeList chứa các phần tử có class là item.",
+        "Phần tử đầu tiên có class là item.",
+        "Một đối tượng DOM duy nhất."
+      ],
+      "correctAnswer": 0,
+      "id": 120
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? \"console.log(0.1 + 0.2 === 0.3);\"",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 1,
+      "id": 121
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của document.getElementById(\"demo\") là gì?",
+      "answers": [
+        "Một NodeList chứa các phần tử có id=\"demo\".",
+        "Phần tử đầu tiên có id=\"demo\".",
+        "Phần tử duy nhất có id=\"demo\".",
+        "Một mảng chứa tất cả phần tử có id=\"demo\"."
+      ],
+      "correctAnswer": 2,
+      "id": 122
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào đúng để xóa một phần tử DOM?",
+      "answers": [
+        "removeElement()",
+        "removeNode()",
+        "parentElement.removeChild()",
+        "deleteElement()"
+      ],
+      "correctAnswer": 2,
+      "id": 123
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của document.querySelector(\"#demo\").style.color=\"red\"; là gì?",
+      "answers": [
+        "Thay đổi màu văn bản của phần tử #demo thành đỏ.",
+        "Thay đổi nền của phần tử #demo thành đỏ.",
+        "Thay đổi cả nền và văn bản của phần tử #demo thành đỏ.",
+        "Không có gì thay đổi."
+      ],
+      "correctAnswer": 0,
+      "id": 124
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào được sử dụng để kết hợp hai mảng trong JavaScript?",
+      "answers": [
+        "concat()",
+        "combine()",
+        "merge()",
+        "add()"
+      ],
+      "correctAnswer": 0,
+      "id": 125
+    },
+    {
+      "topicId": "3",
+      "questions": "Phương thức nào được sử dụng để thêm sự kiện click vào một phần tử DOM?",
+      "answers": [
+        "addEventListener(\"click\", callback)",
+        "onClick(callback)",
+        "setEvent(\"click\", callback)",
+        "bindClick(callback)"
+      ],
+      "correctAnswer": 0,
+      "id": 126
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của document.getElementsByClassName(\"item\")[0] là gì?",
+      "answers": [
+        "Tất cả các phần tử có class là item.",
+        "Phần tử đầu tiên có class là item.",
+        "Một NodeList rỗng.",
+        "Lỗi runtime."
+      ],
+      "correctAnswer": 1,
+      "id": 127
+    },
+    {
+      "topicId": "3",
+      "questions": "Thuộc tính nào được sử dụng để lấy giá trị của một phần tử ?",
+      "answers": [
+        "innerHTML",
+        "value",
+        "textContent",
+        "data"
+      ],
+      "correctAnswer": 1,
+      "id": 128
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? let x; console.log(x);",
+      "answers": [
+        "undefined",
+        "null",
+        "0",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 129
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của đoạn mã sau là gì? \"console.log(0.1 + 0.2 === 0.3);\"   A) true  B) false  C) undefined  D) Lỗi runtime",
+      "answers": [
+        "10",
+        "20",
+        "undefined",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 1,
+      "id": 130
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của function bar(){let x=10;if(true){let x=20;console.log(x);}console.log(x);} bar(); là gì?",
+      "answers": [
+        "20 và 20",
+        "10 và 10",
+        "20 và 10",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 2,
+      "id": 131
+    },
+    {
+      "topicId": "3",
+      "questions": "\"Hoisting\" trong JavaScript có nghĩa là gì?",
+      "answers": [
+        "Di chuyển khai báo hàm/biến lên đầu phạm vi.",
+        "Di chuyển khai báo hàm/biến xuống cuối phạm vi.",
+        "Chỉ áp dụng với hàm.",
+        "Di chuyển giá trị biến lên trên cùng phạm vi."
+      ],
+      "correctAnswer": 0,
+      "id": 132
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của function sum(a,b){return a+b;} console.log(sum(5)); là gì?",
+      "answers": [
+        "NaN",
+        "undefined",
+        "5",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 133
+    },
+    {
+      "topicId": "3",
+      "questions": "Closure trong JavaScript được định nghĩa như thế nào?",
+      "answers": [
+        "Hàm được gọi bên ngoài phạm vi của nó.",
+        "Hàm truy cập vào phạm vi hàm cha sau khi hàm cha kết thúc.",
+        "Hàm không có tham số.",
+        "Hàm chạy trong phạm vi toàn cục."
+      ],
+      "correctAnswer": 1,
+      "id": 134
+    },
+    {
+      "topicId": "3",
+      "questions": "Đâu là cách đúng để viết một arrow function trả về tổng 2 số?",
+      "answers": [
+        "let sum=(a,b)=>{return a+b;}",
+        "let sum=(a,b)=>a+b;",
+        "let sum=a,b=>{return a+b;}",
+        "Cả A và B"
+      ],
+      "correctAnswer": 3,
+      "id": 135
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của (function(){console.log('Hello');})(); là gì?",
+      "answers": [
+        "undefined",
+        "Hello",
+        "Lỗi runtime",
+        "Không in gì ra"
+      ],
+      "correctAnswer": 1,
+      "id": 136
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của function greet(name='Guest'){return 'Hello, '+name+'!';} console.log(greet('John')); console.log(greet()); là gì?",
+      "answers": [
+        "Hello, John! và Hello, Guest!",
+        "Hello, John! và undefined",
+        "Hello, Guest! hai lần",
+        "Lỗi runtime"
+      ],
+      "correctAnswer": 0,
+      "id": 137
+    },
+    {
+      "topicId": "3",
+      "questions": "Kết quả của console.log(a); let a=10; là gì?",
+      "answers": [
+        "10",
+        "undefined",
+        "Lỗi runtime",
+        "Không in gì ra"
+      ],
+      "correctAnswer": 2,
+      "id": 138
     }
   ],
   "answers": []
